@@ -1,0 +1,19 @@
+ body{
+	text-align : center;
+	//-webkit-box-pack : end;
+ }
+ #box{
+	display : block;
+	border : 1px solid blue;
+	margin : 50px auto;
+	padding : 15px;
+	text-align : center;
+	width : 500px;
+	//height : 50px;
+	background : yellow;
+	-webkit-border-radius : 40px;
+	-webkit-box-shadow :rgb(100,100,100) 8px -8px 8px ;
+ }
+ #text{
+	font : bold 20px Century Gothic;
+ }

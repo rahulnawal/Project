@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title> Web Page </title>
+	<meta name = "author" content = "Random" >
+	
+	<style>
+	table, th, td {border : 1px solid green; width : 30%; text-align : center}
+	th { color : red}
+	td {color : blue}
+	h1:hover {background : purple}
+            	a:visited {background:grey}
+            	a:hover {background:lightgreen}
+	</style>
+
+</head>
+<body>
+	
+	<h1 id = "here"> My first heading </h1>
+	 <a href = "http://twitter.com"> twitter  </a> 
+	<p style="background : green"> F.R.I.E.N.D.S Tv Series </p>
+	<img src = "friends.png" width = "25%"  >
+
+<ol type = "a" >
+	<li > Go to Twitter <a href = "http://twitter.com"> twitter  </a> </il>
+	<li> Go to Facebook <a href = "http://facebook.com"> facebook </a> </il> 
+	<li id = "third"> the third item </il>
+</ol>
+	<audio src = "Arctic Monkey.mp3" controls > 	</audio>
+	<h2> My <mark>2nd</mark> heading 
+	</h2>
+	<p> html, <ins>css</ins>, javascript : coursera course : <del>hongkong univ</del> 	</p>
+	<video src = "walking_video.mp4" controls></video>
+	<p> x<sub>1</sub><sup>2</sup> +  x<sub>2</sub><sup>2</sup> =  	       			x<sub>3</sub><sup>2</sup> </p>
+
+	<p> Jon Snow </p>
+	<img src = "jon.jpg" width = "25%" >
+
+<table>
+<thead>
+	<tr> <th>skills</th> <th>difficulty</th> <th>level</th> </tr>
+</thead>
+<tbody>
+	<tr> <td>HTML</td> <td>easy</td> <td>beginner</td> </tr>
+	<tr> <td>CSS</td> <td>medium</td> <td>beginner</td> </tr>
+	<tr> <td>Javascript</td> <td>hard</td> <td>no exposure</td> </tr>
+</tbody>
+</table>
+
+<p class = "happy">
+    My favourite word is supercalifragilisticexpialidocious. It comes 
+    from the movie 'Mary Poppins' and is hard to spell correctly.
+</p>
+<p class = "wow">
+    My favourite word is supercalifragilisticexpialidocious.<br>It comes 
+    from the movie 'Mary Poppins' and is hard to spell correctly.
+</p>
+<p>
+    My favourite word is supercalifragilistic<wbr>expialidocious. It comes 
+    from the movie 'Mary Poppins' and is hard to spell correctly.
+</p>
+<p>
+    My favourite word is supercalifragilisticexpialidocious.<hr>It comes 
+    from the movie 'Mary Poppins' and is hard to spell correctly.
+</p>
+	
+<form>
+<fieldset style = "background : lightgreen; width : 30%">
+	<legend > Personal Information </legend>
+	First Name : <input type = "text" name = "firstname" value = "Kane" autofocus> <br>	
+	Last Name :  <input type = "text" name = "lastname"> <br>
+</fieldset><br>
+	<lable for = "age">Age: </label>
+	<input type = "number" min="0" max="99" step="1" value = "18" name = "age" required> 
+	<br>
+	 DOB : <input type = "date" name = "dob" >
+	<br>
+	<lable for = "color"> Your fav. color : </lable>
+	<input type = "color" name = "color"> 
+	<br>
+	<label for="time"> Time : </lable>
+	<input type = "time" name ="time">
+	<br>
+	<lable for="mood"> Your mood right now : </lable>
+	Bad <input type="range" min="0" max ="99" step = "2" value = "50" name = "mood"> Good 
+	<br>
+
+	What is the secret password?<br>
+	<input type="password" name="userpassword"> <br><br>
+
+	 Choose skills from which you are familiar. <br>
+	<input type = "checkbox" name="skill" value = "c"> C<br>
+	<input type = "checkbox" name="skill" value = "c++"> C++<br>
+	<input type = "checkbox" name="skill" value = "java"> Java <br> <br>
+
+	Please indicate your intelligence level. <br>
+	<input type = "radio" name="iq" value = "low">Low <br>
+	<input type = "radio" name="iq" value = "medium">Medium <br>
+	<input type = "radio" name="iq" value = "high">High <br><br>
+	
+	Which cities would you like to go<br>
+	<select name="cities">
+		<option value = "del">Delhi</option>
+		<option value = "blr">Bangalore</option>
+		<option value = "mmb">Mumbai</option>
+		<option value = "chn">Chennai</option>
+	</select>
+
+	<p> <b>Please Enter Something</b> </p>
+	<textarea rows = "5" cols = "50" name = "feedback">
+	Please enter texts here...
+	</textarea>
+	<br>
+	<input type = "submit" value = "send"><p></p>
+
+	 Select the file you want to upload <br>
+	<input type = "file" name = "file to upload"> <br><br>
+
+	 Press this button to send it <br>
+	<input type = "submit" value = "Upload the file">
+</form>
+
+	<p> <a href = "#here"> Go to top </a> </p>
+	
+</body>
+</html>

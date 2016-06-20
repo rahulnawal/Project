@@ -1,0 +1,99 @@
+﻿<!DOCTYPE htm>
+<html>
+
+<head>
+	<title> Assignment </title>
+	<style>
+		fieldset  {background : lightyellow; border : 10px solid yellow; margin-bottom:10px; width:720px}
+		lable  {width : 180px; display:inline-block; text-align:right; vertical-align:top}
+		lable:hover {font-size : 40px}
+		input:hover {font-size : 40px}
+		textarea {width:360px; height:50px}
+		span {vertical-align : top}
+		#first {background : brown; color:white}
+		#second {background : purple; color:white}
+	</style>
+</head>
+
+<body>
+<form action ="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method = "post" enctype="multipart/form-data">
+
+	<h1> Please Enter Your Details For Our Dating Website! </h1>
+
+	<fieldset >
+		<legend> Your Face </legend>
+		<lable for="image">Your image:</lable> 
+		<input type = "file" id = "image" name="image" required > <br>
+		<lable id="preview" >Image preview :</lable>
+	</fieldset>
+	<p> </p>
+	<fieldset>
+		<legend> Your General Details </legend>		
+		<lable for="name" >Name:</lable> 
+		<input type = "text" id = "name" placeholder = "Your full name" name = "name" required> <br>
+
+		<lable id = "gender" for = "gender">Gender:</lable>		
+		<input type = "radio" id = "male" name = "male">Male <input type = "radio" id = "female" name="female">Female <br>
+
+		<lable for="age">Age:</lable>
+		<input type = "number" id="age" name="age" value = "18" required> <br>
+
+		<lable for="date">Date of birth:</lable>
+		<input type = "date" id="date" name="date"> <br>
+
+		<lable for="color">Favorite color:</lable>
+		<input type = "color" id="color" name = "color"> <br>
+
+		<lable for="country">Which country:</lable>
+		<select id="country">
+			<option name = "country" value = "no selection"></option>
+			<option name = "country" value = "del">Delhi</option>
+			<option name = "country" value = "blr">Bangalore</option>
+			<option name = "country" value = "mmb">Mumbai</option>
+			<option name = "country" value = "chn">Chennai</option>
+			<option name = "country" value = "cal">Calcutta</option>
+		</select>
+	</fieldset> <p></p>
+
+	<fieldset>
+		<legend>Your Indicators</legend>
+		<lable for="height">Height:</lable>
+		<span id="first">Short</span> <input type = "range" min="0" max="100" name="height"> <span id="second">Tall</span> <br>
+
+		<lable for="salary">Salary:</lable>		
+		<span id="first">Poor</span> <input type  = "range" min="0" max="100" name = "salary"> <span id="second">Rich</span> <br>
+	</fieldset> <p></p>
+
+	<fieldset>
+		<legend>Your Contact Information</legend>
+		<lable for="email">Email:</lable>
+		<input type="email" required> <br>
+	
+		<lable for="mobile">Mobile:</lable>
+		<input type = "tel" id="mobile" name="mobile"> <br>
+
+		<lable for="address">Address:</lable>
+		<textarea id="address" name="address">
+			</textarea> <br>
+
+		<lable for="contact">Method to contact you:</lable>
+		<input type = "checkbox" name="contact">Email <input type = "checkbox" name="contact">Whatsapp 
+		<input type = "checkbox" name="contact">In-app chat <br>
+	</fieldset><br>
+
+	<input type = "submit" value = "submit">
+	
+	<script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
+
+</form>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
